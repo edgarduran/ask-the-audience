@@ -1,0 +1,21 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": "polling application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git init"
+  },
+  "author": "Edgar Duran",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "socket.io": "^1.4.5"
+  }
+}

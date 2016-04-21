@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebSockets Workshop</title>
+  </head>
+  <body>
+    <h2>WebSockets and Junk</h2>
+
+    <div id="connection-count">
+    </div>
+
+    <div id="message">
+    </div>
+
+    <div id="voting-choices">
+      <button type="button" id="a">A</button>
+      <button type="button" id="b">B</button>
+      <button type="button" id="c">C</button>
+      <button type="button" id="d">D</button>
+    </div><br><br>
+
+    <div id="vote-totals">
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
