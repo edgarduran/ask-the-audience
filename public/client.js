@@ -22,7 +22,7 @@ socket.on('statusMessage', function (message) {
   messageText.innerText = message;
 });
 
-socket.on('voteCount', function (votes) {
-  console.log(votes);
-  voteTally.innerText = votes
+socket.on('voteCount', function (voteCount) {
+  console.log(voteCount);
+  voteTally.innerText = voteCount
 });
