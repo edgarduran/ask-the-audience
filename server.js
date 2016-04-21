@@ -46,6 +46,7 @@ io.on('connection', function (socket) {
       votes[socket.id] = message;
       console.log(votes);
       socket.emit('voteCount', countVotes(votes));
+      socket.emit('youHaveVotedMessage', 'You have voted ' + message );
     }
   });
 });
